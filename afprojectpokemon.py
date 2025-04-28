@@ -10,26 +10,26 @@ Original file is located at
 
 ##Mission
 
-* Дано: есть план А
-* Найти:
+* Given: Plan A exists
+* To Find:
 
-1.   собрать команду по параметрам плана А
-2.   собрать таблицы для разработки плана Б
-3.   разработать универсальный модуль для сбoра компанды
+1. Assemble a team according to Plan A's parameters
+2. Gather tables for developing Plan B
+3. Develop a universal module for team assembly
 
-* Команда для плана А:
-  * соcтоит из 5 Pokemon, где должен быть
-  * Pokemon Flying с HP или Attack больше 70
-  * Pokemon Water с Speed больше 110
-  * Pokemon c Total > 720
+*Team for Plan A:
+    * Consists of 5 Pokémon with the following requirements:
+    * 1 Flying-type Pokémon with HP or Attack > 70
+    * 1 Water-type Pokémon with Speed > 110
+    * 1 Pokémon with Total > 720
 
-* Для разработки плана Б необходимы данные:
-1. показатель Attack топ 5  и в промежутке от 50 до 70
-2. найти средний HP по Type1
-3. соотношениe Generation и Legendary
-4. сводные данные по Type1 и Generation (Attack и HP)
+*Data required for Plan B development:
+1. Top 5 Attack stats between 50-70
+2. Average HP by Type1
+3. Distribution between Generation and Legendary status
+4. Aggregated data by Type1 and Generation (Attack and HP stats)
 
-  *решаюший фактор соотношение сил
+*The deciding factor is the power ratio
 
 #Data
 
@@ -213,46 +213,3 @@ df[df.team_pokemon == 1]
 """#Conclusions
 
 Mission completed successfully
-
-1.   Собрана команда плана А
-2.   Собраны таблицы для плана Б
-3.   Работает модуль для сбора компанды
-
-* Команда плана А:
-  * TornadusIncarnate Forme
-  * Noivern
-  * Greninja
-  * MewtwoMega Mewtwo Y
-  * RayquazaMega Rayquaza
-
-ТЗ: Вполнено
-
-Данные должны быть обработаны.
-Необходимо сделать следующие манипуляции:
-+(удалены, но не сохранены, поскольку это искажает дальшее исследование)
-выяснить, есть ли пропуски и, если да - обработать их (например, удалить или заполнить каким-то значением);
-
-+
-отфильтровать часть данных по каким-то условиям (которые вам кажутся наиболее уместными);
-
-+
-создать новый столбец (или несколько) с применением метода apply и созданной Вами функции.
-
-
-Проанализируйте данные:
-
-+
-найдите описательные статистики для данных;
-
-+
-попробуйте найти какие-то показатели (например, среднее, минимум или максимум) с группировкой: попробуйте найти интересные зависимости;
-
-+
-постройте сводную таблицу.
-
-
-Визуализируйте полученный(-е) результат(-ы):
-
-+
-Ваша задача – построить красивые и интересные визуализации. Постройте хотя бы 3 разных визуализации. Можно использовать идеи из галереи библиотеки matplotlib, seaborn.
-"""
